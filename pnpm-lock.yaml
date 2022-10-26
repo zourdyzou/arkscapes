@@ -53,13 +53,13 @@ specifiers:
   core-js: ~3.20.2
   cross-env: ^7.0.3
   cspell: ^6.1.2
-  css-loader: ~6.5.1
+  css-loader: 6.7.1
   css-minimizer-webpack-plugin: ^4.0.0
   cssnano: ~5.0.15
   dotenv-webpack: ^8.0.0
   eslint: ~8.6.0
   eslint-config-airbnb-base: ~15.0.0
-  eslint-config-airbnb-typescript: ~16.1.0
+  eslint-config-airbnb-typescript: ~16.2.0
   eslint-config-prettier: ~8.3.0
   eslint-import-resolver-alias: ~1.1.2
   eslint-plugin-import: ~2.25.4
@@ -192,13 +192,13 @@ devDependencies:
   core-js: 3.20.3
   cross-env: 7.0.3
   cspell: 6.10.1
-  css-loader: 6.5.1_webpack@5.65.0
+  css-loader: 6.7.1_webpack@5.65.0
   css-minimizer-webpack-plugin: 4.1.0_webpack@5.65.0
   cssnano: 5.0.17_postcss@8.4.16
   dotenv-webpack: 8.0.1_webpack@5.65.0
   eslint: 8.6.0
   eslint-config-airbnb-base: 15.0.0_wwrwxdavgu4hzdoqb37x5rvvke
-  eslint-config-airbnb-typescript: 16.1.4_5okj6jm4hkhcxfbn6n3dqcyqx4
+  eslint-config-airbnb-typescript: 16.2.0_5okj6jm4hkhcxfbn6n3dqcyqx4
   eslint-config-prettier: 8.3.0_eslint@8.6.0
   eslint-import-resolver-alias: 1.1.2_t6pef3jrjg2rjejjp7kevcbc34
   eslint-plugin-import: 2.25.4_gyqcce5u2ijhn2hqkipmk56rmu
@@ -6751,6 +6751,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: false
@@ -7912,8 +7913,8 @@ packages:
       webpack: 4.46.0_webpack-cli@4.10.0
     dev: false
 
-  /css-loader/6.5.1_webpack@5.65.0:
-    resolution: {integrity: sha512-gEy2w9AnJNnD9Kuo4XAP9VflW/ujKoS9c/syO+uWMlm5igc7LysKzPXaDoR2vroROkSwsTS2tGr1yGGEbZOYZQ==}
+  /css-loader/6.7.1_webpack@5.65.0:
+    resolution: {integrity: sha512-yB5CNFa14MbPJcomwNh3wLThtkZgcNyI2bNMRt8iE5Z8Vwl7f8vQXFAzn2HDOJvtDq2NTZBUGMSUNNyrv3/+cw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
@@ -9068,8 +9069,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb-typescript/16.1.4_5okj6jm4hkhcxfbn6n3dqcyqx4:
-    resolution: {integrity: sha512-dfm2cEaYXh4mCYd+RyJO8+PQfd5/zp8WwrCeRznly5qD9W5tal3KTjgdInYWuEAdwWnNJxWcmQ/HFiA4bfkM1g==}
+  /eslint-config-airbnb-typescript/16.2.0_5okj6jm4hkhcxfbn6n3dqcyqx4:
+    resolution: {integrity: sha512-OUaMPZpTOZGKd5tXOjJ9PRU4iYNW/Z5DoHIynjsVK/FpkWdiY5+nxQW6TiJAlLwVI1l53xUOrnlZWtVBVQzuWA==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0
       '@typescript-eslint/parser': ^5.0.0
@@ -9707,6 +9708,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -12859,6 +12861,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: false
     optional: true
 
